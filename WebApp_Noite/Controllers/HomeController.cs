@@ -13,7 +13,18 @@ namespace WebApp_Noite.Controllers
             _logger = logger;
         }
 
+        //tela index
         public IActionResult Index()
+        {
+            return View();
+        }
+
+        public IActionResult MinhaTela()
+        {
+            return View();
+        }
+
+        public IActionResult Login()
         {
             return View();
         }
