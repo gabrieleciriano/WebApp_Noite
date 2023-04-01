@@ -2,14 +2,13 @@
 
 namespace WebApp_Noite.Controllers
 {
-    public class ProdutoController : Controller
+    public class ClienteController : Controller
     {
         public IActionResult Listar()
         {
             return View();
         }
 
-        //outro metodo que retorna uma tela
         public IActionResult Cadastrar()
         {
             return View();
